@@ -1,0 +1,71 @@
+.editor-outer {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 100px;
+  margin-top: 40px;
+  font-family: "Mulish", sans-serif;
+  /* background-color: #f9f5fc; */
+}
+
+.editor-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.editor-inner-left {
+  /* background-color: aqua; */
+}
+
+.editor-inner-left-title {
+  color: #8b24f4;
+  font-weight: 700;
+}
+
+.action-window {
+  height: 400px;
+  width: 100%;
+  /* border: 2px dashed #00000029; */
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.editor-inner-right {
+  /* background-color: red; */
+}
+
+.editor-inner-right-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8b24f4;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.editor-link {
+  text-decoration: none;
+  color: #8b24f4;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print,
+  #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  @page {
+    margin: 0;
+  }
+  body {
+    margin: 1.6cm;
+  }
+}

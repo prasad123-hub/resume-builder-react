@@ -1,0 +1,36 @@
+.nav-outer {
+  max-width: 100vw;
+  height: min-content;
+  padding: 0 40px;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.list-items {
+  display: flex;
+}
+
+.list-item {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #6009a9;
+  cursor: pointer;
+}
+
+.navbrand h2 {
+  font-family: "Pacifico", cursive;
+  color: #6009a9;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.nav- {
+  text-decoration: none;
+}

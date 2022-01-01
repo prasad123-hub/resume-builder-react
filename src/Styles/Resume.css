@@ -1,0 +1,110 @@
+.resume-outer {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: min-content;
+  padding: 10px;
+}
+
+.resume-inner {
+  padding: 10px;
+}
+
+.resume-profile-name {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.resume-profile-role {
+  font-size: 14px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.resume-details-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resume-details-item {
+  font-size: 14px;
+}
+
+.resume-bio {
+  margin-top: 20px;
+}
+
+.resume-bio-title {
+  background-color: #88d1b8;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.resume-bio-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.resume-education-title {
+  background-color: #88d1b8;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.resume-education-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.education-year,
+.education-degree,
+.education-university {
+  font-size: 14px;
+}
+
+.education-year {
+  font-weight: 100;
+  width: 120px;
+}
+
+.education-university {
+  margin-top: 4px;
+  font-weight: 100;
+}
+
+.resume-education-school {
+  /* margin-left: 40px; */
+}
+
+.resume-projects-title {
+  background-color: #88d1b8;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.skills {
+  color: #88d1b8;
+  font-weight: 700;
+}
+
+.project-description {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.project-box {
+  margin-left: 35px;
+}
+
+.certification-title {
+  background-color: #88d1b8;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px 0;
+}
